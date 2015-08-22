@@ -10,9 +10,7 @@
 		A2BD9D001B88B46C00709D7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BD9CFF1B88B46C00709D7E /* main.m */; };
 		A2BD9D031B88B46C00709D7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BD9D021B88B46C00709D7E /* AppDelegate.m */; };
 		A2BD9D061B88B46C00709D7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BD9D051B88B46C00709D7E /* ViewController.m */; };
-		A2BD9D091B88B46C00709D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BD9D071B88B46C00709D7E /* Main.storyboard */; };
 		A2BD9D0B1B88B46C00709D7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BD9D0A1B88B46C00709D7E /* Images.xcassets */; };
-		A2BD9D0E1B88B46C00709D7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2BD9D0C1B88B46C00709D7E /* LaunchScreen.xib */; };
 		A2BD9D1A1B88B46C00709D7E /* webrtc_xmpp_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BD9D191B88B46C00709D7E /* webrtc_xmpp_demoTests.m */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +32,7 @@
 		A2BD9D021B88B46C00709D7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A2BD9D041B88B46C00709D7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A2BD9D051B88B46C00709D7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A2BD9D081B88B46C00709D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2BD9D0A1B88B46C00709D7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A2BD9D0D1B88B46C00709D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A2BD9D131B88B46C00709D7E /* webrtc-xmpp-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "webrtc-xmpp-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BD9D181B88B46C00709D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2BD9D191B88B46C00709D7E /* webrtc_xmpp_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webrtc_xmpp_demoTests.m; sourceTree = "<group>"; };
@@ -85,9 +81,7 @@
 				A2BD9D021B88B46C00709D7E /* AppDelegate.m */,
 				A2BD9D041B88B46C00709D7E /* ViewController.h */,
 				A2BD9D051B88B46C00709D7E /* ViewController.m */,
-				A2BD9D071B88B46C00709D7E /* Main.storyboard */,
 				A2BD9D0A1B88B46C00709D7E /* Images.xcassets */,
-				A2BD9D0C1B88B46C00709D7E /* LaunchScreen.xib */,
 				A2BD9CFD1B88B46C00709D7E /* Supporting Files */,
 			);
 			path = "webrtc-xmpp-demo";
@@ -199,8 +193,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BD9D091B88B46C00709D7E /* Main.storyboard in Resources */,
-				A2BD9D0E1B88B46C00709D7E /* LaunchScreen.xib in Resources */,
 				A2BD9D0B1B88B46C00709D7E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +234,6 @@
 			targetProxy = A2BD9D141B88B46C00709D7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A2BD9D071B88B46C00709D7E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2BD9D081B88B46C00709D7E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A2BD9D0C1B88B46C00709D7E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2BD9D0D1B88B46C00709D7E /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A2BD9D1B1B88B46C00709D7E /* Debug */ = {

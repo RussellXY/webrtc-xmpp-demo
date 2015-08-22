@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "XMPPFramework.h"
 
 @interface XYXMPPManager : NSObject
+
+@property (nonatomic, readonly, strong) XMPPStream *xmppStream;
 
 @end

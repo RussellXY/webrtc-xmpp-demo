@@ -494,6 +494,7 @@
 		A2BD9F621B88C6E200709D7E /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		A2BD9F641B88C79500709D7E /* XYXMPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYXMPPManager.h; sourceTree = "<group>"; };
 		A2BD9F651B88C79500709D7E /* XYXMPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYXMPPManager.m; sourceTree = "<group>"; };
+		A2BD9F671B88CBAF00709D7E /* webrtc-xmpp-demoPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webrtc-xmpp-demoPrefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -669,6 +670,7 @@
 			children = (
 				A2BD9D301B88BFD600709D7E /* Info.plist */,
 				A2BD9D311B88BFD600709D7E /* main.m */,
+				A2BD9F671B88CBAF00709D7E /* webrtc-xmpp-demoPrefix.pch */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";

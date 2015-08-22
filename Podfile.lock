@@ -1,0 +1,27 @@
+PODS:
+  - CocoaLumberjack (1.9.2):
+    - CocoaLumberjack/Extensions (= 1.9.2)
+  - CocoaLumberjack/Core (1.9.2)
+  - CocoaLumberjack/Extensions (1.9.2):
+    - CocoaLumberjack/Core
+  - Masonry (0.6.1)
+  - MBProgressHUD (0.9.1)
+  - YapDatabase (2.6.1):
+    - YapDatabase/standard (= 2.6.1)
+  - YapDatabase/common (2.6.1):
+    - CocoaLumberjack (~> 1)
+  - YapDatabase/standard (2.6.1):
+    - YapDatabase/common
+
+DEPENDENCIES:
+  - Masonry
+  - MBProgressHUD
+  - YapDatabase
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  YapDatabase: 13566c87dc9226a0f15d755edba08e8ad94cac9f
+
+COCOAPODS: 0.38.2

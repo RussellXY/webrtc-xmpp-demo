@@ -1,0 +1,8 @@
+*.pbxuser
+*.mode1v3
+*.mode2v3
+xcuserdata
+.DS_Store
+project.xcworkspace
+.idea
+
